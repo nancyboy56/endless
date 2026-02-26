@@ -9,6 +9,7 @@ public class Score : MonoBehaviour
     void Start()
     {
         scoreText.text = score.ToString();
+        PlayerPrefs.SetInt("Score", score);
     }
 
     // Update is called once per frame
@@ -21,5 +22,6 @@ public class Score : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
+        PlayerPrefs.SetInt("Score", score);
     }
 }
