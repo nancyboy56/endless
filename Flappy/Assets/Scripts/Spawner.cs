@@ -10,6 +10,7 @@ public class Spawner : MonoBehaviour
     [SerializeField, Range(0,10)]
     float delay = 3.5f;
 
+    [SerializeField] private float randomY;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,9 +38,9 @@ public class Spawner : MonoBehaviour
             //i think i should just make them both different prefabs and have them spawn in together
             //or have same as the same prefab and just load in different pillar art and then spawn two at once 
             // bc get child 1 and 0 is actually so dumb and why is this even possible this way lol
-            float pillarY = Random.Range(1.5f,2.0f);
-            newPillar.transform.GetChild(0).localScale = new Vector3(pillar.transform.localScale.x, pillarY , pillar.transform.localScale.z);
-            newPillar.transform.GetChild(1).localScale = new Vector3(pillar.transform.localScale.x,  pillarY, pillar.transform.localScale.z);
+            randomY = Random.Range(1.0f,2.0f);
+            newPillar.transform.GetChild(0).localScale = new Vector3(pillar.transform.localScale.x, randomY , pillar.transform.localScale.z);
+            newPillar.transform.GetChild(1).localScale = new Vector3(pillar.transform.localScale.x,  randomY, pillar.transform.localScale.z);
            // newPillar.transform.localScale = new Vector3(pillar.transform.localScale.x,  Random.Range(1.0f,2.0f), pillar.transform.localScale.z);
 
             yield return new WaitForSeconds(delay);

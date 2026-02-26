@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,8 @@ public class PlayerControler : MonoBehaviour
 
     [SerializeField]
     Animator ani;
+
+    [SerializeField]private Score score;
 
 
     [SerializeField] [Range(0,10)]
@@ -41,5 +44,13 @@ public class PlayerControler : MonoBehaviour
     public void SetIdle()
     {
         ani.SetBool("isFlapping", false);
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.CompareTag("Score"))
+        {
+            score.AddScore();
+        }
     }
 }

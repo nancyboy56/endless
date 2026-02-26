@@ -1,8 +1,8 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class EndGame : MonoBehaviour
+public class Score : MonoBehaviour
 {
+    [SerializeField] private int score = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,13 +15,8 @@ public class EndGame : MonoBehaviour
         
     }
 
-    
-    void OnCollisionEnter2D(Collision2D collision)
+    public void AddScore()
     {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            SceneManager.LoadScene("End");
-
-        }
+        score++;
     }
 }

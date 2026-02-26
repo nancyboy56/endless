@@ -14,6 +14,12 @@ public class MovePillar : MonoBehaviour
     void Update()
     {
         
+        //is this the most effective way to do this
+        // i feel like it should work out the boundaries from the screen size
+        if (transform.position.x < -11)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void FixedUpdate()
