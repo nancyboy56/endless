@@ -46,10 +46,12 @@ public class PlayerControler : MonoBehaviour
         ani.SetBool("isFlapping", false);
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Score"))
+        Debug.Log("collside!");
+        if (collision.gameObject.CompareTag("Score"))
         {
+            Debug.Log("Score!!");
             score.AddScore();
         }
     }
