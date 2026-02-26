@@ -11,7 +11,7 @@ public class PlayerControler : MonoBehaviour
     Animator ani;
 
     [SerializeField]private Score score;
-
+    [SerializeField] private SoundManager sound;
 
     [SerializeField] [Range(0,10)]
     float force = 3;
@@ -39,6 +39,7 @@ public class PlayerControler : MonoBehaviour
         
 
         ani.SetBool("isFlapping", true);
+        sound.WingPLay();
         
     }
     public void SetIdle()
@@ -53,6 +54,7 @@ public class PlayerControler : MonoBehaviour
         {
             Debug.Log("Score!!");
             score.AddScore();
+            sound.ScoringPLay();
         }
     }
 }
