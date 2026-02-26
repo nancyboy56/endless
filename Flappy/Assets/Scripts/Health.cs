@@ -28,6 +28,11 @@ public class Health : MonoBehaviour
         }
     }
 
+    public int GetHealth()
+    {
+        return currenthealth;
+    }
+
     public bool isDead()
     {
         if (currenthealth <= 0)
