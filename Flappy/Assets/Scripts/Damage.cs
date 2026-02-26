@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Damage : MonoBehaviour
 {
@@ -17,10 +18,12 @@ public class Damage : MonoBehaviour
     //its more readable and scaleable
     [SerializeField] private int obstacleDamage = 1;
     
+    [SerializeField] private string dieScene ="End Run";
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        UpdateHealthDisplay();
     }
 
     // Update is called once per frame
@@ -41,15 +44,32 @@ public class Damage : MonoBehaviour
             {
                 health.TakeDamage(obstacleDamage);
                 
+                if (health.isDead())
+                {
+                    Die();
+                }
+                
                 // easy way so the collisions dont get messed up
                 // or should i just delete the collider
                 Destroy(collision.gameObject);
-                
-                if(healthDisplay != null)
-                {
-                    healthDisplay.text = "Health: " + health.GetHealth().ToString();
-                }
+
+                UpdateHealthDisplay();
             }
+        }
+    }
+
+    // currently just go to end screen
+    //might want to do animations later
+    private void Die()
+    {
+        SceneManager.LoadScene(dieScene);
+    }
+
+    private void UpdateHealthDisplay()
+    {
+        if(healthDisplay != null)
+        {
+            healthDisplay.text = "Health: " + health.GetHealth().ToString();
         }
     }
 }

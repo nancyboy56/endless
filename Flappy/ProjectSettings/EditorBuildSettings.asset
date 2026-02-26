@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Flappy/End.unity
     guid: e84ddff4c2e7d44ff85d541f6d5f3675
+  - enabled: 1
+    path: Assets/Scenes/Runner/Start Run.unity
+    guid: ccfdbc33941e9e74082f5cd4ad6ef9a3
+  - enabled: 1
+    path: Assets/Scenes/Runner/Runner.unity
+    guid: d8027b962e80f624480e6e480090a813
+  - enabled: 1
+    path: Assets/Scenes/Runner/End Run.unity
+    guid: 4ab7d522ebfa4954cb5caff553e1c464
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
