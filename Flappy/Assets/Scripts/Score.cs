@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
     public void AddScore()
     {
         score++;
-        scoreText.text = score.ToString();
+        scoreText.text = "Score: " + score.ToString();
         PlayerPrefs.SetInt("Score", score);
     }
 }

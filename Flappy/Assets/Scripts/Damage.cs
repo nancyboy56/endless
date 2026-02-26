@@ -5,6 +5,10 @@ using UnityEngine;
 public class Damage : MonoBehaviour
 {
     [SerializeField] private Health health;
+    
+    //i dont know if it should really be called here
+    //it feels a bit strange tp have the UI with the logic and it 
+    [SerializeField] private TextMeshProUGUI healthDisplay;
 
     [SerializeField] private int damageLayer = 6;
 
@@ -40,6 +44,11 @@ public class Damage : MonoBehaviour
                 // easy way so the collisions dont get messed up
                 // or should i just delete the collider
                 Destroy(collision.gameObject);
+                
+                if(healthDisplay != null)
+                {
+                    healthDisplay.text = "Health: " + health.GetHealth().ToString();
+                }
             }
         }
     }
