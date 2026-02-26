@@ -1739,9 +1739,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf148f88606da146b75fc71b872f307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  pillar: {fileID: 1651303626}
+  obstaclePrefab: {fileID: 2124271929380018184, guid: 0f4bb0996c48da34594720c637580673, type: 3}
   delay: 3.5
-  randomY: 0
   groundHeight: 0
 --- !u!1 &1658931004
 GameObject:

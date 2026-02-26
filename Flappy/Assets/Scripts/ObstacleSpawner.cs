@@ -4,13 +4,11 @@ using System.Collections;
 public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField]
-    GameObject pillar;
+    GameObject obstaclePrefab;
 
     [SerializeField, Range(0,10)]
     float delay = 3.5f;
-
-    [SerializeField] private float randomY;
-
+    
     [SerializeField] private float groundHeight;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,7 +31,7 @@ public class ObstacleSpawner : MonoBehaviour
             // i think the scaling it differently is bad so i think I will just draw different assets
             //unless i can make a readjust height asset using a shader
             //i could do that
-            GameObject newPillar = Instantiate(pillar, new Vector3(pillar.transform.position.x, groundHeight,pillar.transform.position.z ), Quaternion.identity);
+            GameObject newPillar = Instantiate(obstaclePrefab, new Vector3(transform.position.x, groundHeight,transform.position.z ), Quaternion.identity);
             
            // might make this delay a bit random idk yet
             yield return new WaitForSeconds(delay);
