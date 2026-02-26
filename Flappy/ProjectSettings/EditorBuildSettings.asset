@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/Flappy/Start.unity
     guid: f83e78b9da0ca4e0eac9a0b6d7da70b3
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Flappy/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Level.unity
+    path: Assets/Scenes/Flappy/Level.unity
     guid: ee69ae3fe63c7154681d6eba4d0101f8
   - enabled: 1
-    path: Assets/Scenes/End.unity
+    path: Assets/Scenes/Flappy/End.unity
     guid: e84ddff4c2e7d44ff85d541f6d5f3675
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
