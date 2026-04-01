@@ -19,6 +19,8 @@ public class Damage : MonoBehaviour
     [SerializeField] private int obstacleDamage = 1;
     
     [SerializeField] private string dieScene ="End Run";
+
+    [SerializeField] private Healthbar hbDisplay;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -52,8 +54,10 @@ public class Damage : MonoBehaviour
                 // easy way so the collisions dont get messed up
                 // or should i just delete the collider
                 Destroy(collision.gameObject);
-
-                UpdateHealthDisplay();
+                
+                //updates hearts through here but runs its own script
+               hbDisplay.UpdateHealth (health.GetHealth(), health.GetMaxHealth());
+                //UpdateHealthDisplay();
             }
         }
     }
@@ -65,7 +69,8 @@ public class Damage : MonoBehaviour
         SceneManager.LoadScene(dieScene);
     }
 
-    // need to put this on
+    // im not using a number anymore but i should have had it on heart and linked the scriipt
+    //it is just confusing having it here
     private void UpdateHealthDisplay()
     {
         if(healthDisplay != null)
