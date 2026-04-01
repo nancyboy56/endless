@@ -117,6 +117,28 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 1092}
     spritePosition: {x: 285, y: 46}
+  - name: Lorem Ipsum
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1906
+      y: 2053
+      width: 0
+      height: 0
+    spriteID: a92e6e8327f7946c18a269ee4025cbc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1423, y: 2053}
+    spritePosition: {x: 1920, y: 1080}
   - name: angs
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -295,6 +317,16 @@ ScriptedImporter:
     spriteID: 5dc0d422f4375034d892e1c0fc9a5572
     layerID: 8
     mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lorem Ipsum
+    spriteName: Lorem Ipsum
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a92e6e8327f7946c18a269ee4025cbc2
+    layerID: 12
+    mosaicPosition: {x: 1906, y: 2053}
     flatten: 0
     isImported: 1
     isVisible: 1
