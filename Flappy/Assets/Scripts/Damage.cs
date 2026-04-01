@@ -65,6 +65,7 @@ public class Damage : MonoBehaviour
         SceneManager.LoadScene(dieScene);
     }
 
+    // need to put this on
     private void UpdateHealthDisplay()
     {
         if(healthDisplay != null)
