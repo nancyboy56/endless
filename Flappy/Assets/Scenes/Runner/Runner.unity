@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grave 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2124271929380018184, guid: 65a44c1ce7a044e90a84229b055ffcdc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2622685594700905049, guid: 65a44c1ce7a044e90a84229b055ffcdc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9859
@@ -2850,6 +2854,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   obstaclePrefab:
   - {fileID: 2124271929380018184, guid: 0f4bb0996c48da34594720c637580673, type: 3}
+  - {fileID: 2124271929380018184, guid: 65a44c1ce7a044e90a84229b055ffcdc, type: 3}
+  percentage:
+  - 1
+  - 0.5
   minDelay: 0.5
   maxDelay: 10
   baseDelay: 5.16

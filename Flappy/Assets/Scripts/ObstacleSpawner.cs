@@ -6,6 +6,7 @@ using System.Collections;
 public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] obstaclePrefab;
+    [SerializeField] private float[] percentage;
 
     [SerializeField, Range(0,2)]
     // startoing delay 
@@ -39,18 +40,30 @@ public class ObstacleSpawner : MonoBehaviour
         {
             // this means that objects could come way to first too early.
             // i think the min has to start higher over time
-            delay = UnityEngine.Random.Range(minDelay + baseDelay, maxDelay);
-            maxDelay -= interval;
+            Delay();
 
-            // make sure the basedaly doesnt get less than 0
-            if (baseDelay - interval / 2 > 0)
-            {
-                baseDelay -= interval/2;
-            }
-            
             GameObject newPillar = Instantiate(obstaclePrefab[0], new Vector3(transform.position.x, groundHeight,transform.position.z ), Quaternion.identity);
             
             yield return new WaitForSeconds(delay);
         } 
+    }
+
+    private void Spawn()
+    {
+        
+    }
+    
+    
+    // i think this shoudl return to delay it makes more sense but it is a bit reduncant?
+    private void Delay()
+    {
+        delay = UnityEngine.Random.Range(minDelay + baseDelay, maxDelay);
+        maxDelay -= interval;
+
+        // make sure the basedaly doesnt get less than 0
+        if (baseDelay - interval / 2 > 0)
+        {
+            baseDelay -= interval/2;
+        }
     }
 }
