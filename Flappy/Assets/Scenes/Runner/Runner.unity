@@ -601,7 +601,7 @@ Transform:
   m_GameObject: {fileID: 175481541}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9859, y: -1.10226, z: 0}
+  m_LocalPosition: {x: 1, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2080,6 +2080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238074215}
   - component: {fileID: 1238074214}
+  - component: {fileID: 1238074216}
   m_Layer: 0
   m_Name: Blood Moon
   m_TagString: Untagged
@@ -2155,7 +2156,7 @@ Transform:
   m_GameObject: {fileID: 1238074213}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6541, y: 3.5222602, z: 0}
+  m_LocalPosition: {x: -4.33, y: -2.36, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2164,6 +2165,28 @@ Transform:
   - {fileID: 1189850193}
   m_Father: {fileID: 175481542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1238074216
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238074213}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e58496fbed05470996c585bfd276c89, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1262475366
 GameObject:
   m_ObjectHideFlags: 0
