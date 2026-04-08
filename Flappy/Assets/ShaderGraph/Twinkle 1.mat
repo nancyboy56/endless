@@ -43,10 +43,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _Angle: 2.3
-    - _Density: 2
+    - _Density: 100
+    - _Mask: 0.85
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.2
+    - _Sin_Range: 0.5
+    - _Speed: -0.02
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
