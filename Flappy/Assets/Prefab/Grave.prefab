@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 476155999954113418}
   - component: {fileID: 425427060868064392}
   m_Layer: 6
-  m_Name: Pillar
+  m_Name: Grave
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
