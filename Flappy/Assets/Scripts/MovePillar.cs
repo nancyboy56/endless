@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class MovePillar : MonoBehaviour
 {
-    [SerializeField, Range(0,10)]
+    [SerializeField, Range(0,20)]
     float speed = 2;
 
     [SerializeField, Range (-20,20)]
     private float despawnX = -11;
+    [SerializeField] private bool respawn = false;
+    [SerializeField] private float reswpawnX = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,8 +23,18 @@ public class MovePillar : MonoBehaviour
         // i feel like it should work out the boundaries from the screen size
         if (transform.position.x < despawnX)
         {
-            Destroy(gameObject);
+            if (respawn)
+            {
+                transform.position = new Vector3(reswpawnX, transform.position.y, transform.position.z);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+            
+            
         }
+        
     }
 
     void FixedUpdate()
