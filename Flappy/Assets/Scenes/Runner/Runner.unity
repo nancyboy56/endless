@@ -3465,8 +3465,8 @@ MonoBehaviour:
   - {fileID: 2124271929380018184, guid: 0f4bb0996c48da34594720c637580673, type: 3}
   - {fileID: 2124271929380018184, guid: 65a44c1ce7a044e90a84229b055ffcdc, type: 3}
   percentage:
-  - 1
-  - 0.5
+  - 100
+  - 10
   minDelay: 0.5
   maxDelay: 10
   baseDelay: 5.16

@@ -60,7 +60,20 @@ public class Damage : MonoBehaviour
                 //UpdateHealthDisplay();
             }
         }
+
+        
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Collectable"))
+        {
+            Debug.Log("helaed");
+            health.Heal(1);
+            hbDisplay.UpdateHealth (health.GetHealth(), health.GetMaxHealth());
+        }
+    }
+    
 
     // currently just go to end screen
     //might want to do animations later

@@ -1,12 +1,14 @@
 using System;
 using UnityEngine;
 using System.Collections;
+using Random = System.Random;
 
 
 public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] obstaclePrefab;
-    [SerializeField] private float[] percentage;
+    // 1 to 100 though
+    [SerializeField, Range(0,100)] private float[] percentage;
 
     [SerializeField, Range(0,2)]
     // startoing delay 
@@ -41,17 +43,34 @@ public class ObstacleSpawner : MonoBehaviour
             // this means that objects could come way to first too early.
             // i think the min has to start higher over time
             Delay();
+           // bool spawn = false;
+            for (int i = percentage.Length- 1; i >= 0; i--)
+            {
+                if (UnityEngine.Random.Range(0, 100) < percentage[i])
+                {
+                    Debug.Log("spawn!");
+                    GameObject newObject = Instantiate(obstaclePrefab[i], new Vector3(transform.position.x, groundHeight,transform.position.z ), Quaternion.identity);
 
-            GameObject newPillar = Instantiate(obstaclePrefab[0], new Vector3(transform.position.x, groundHeight,transform.position.z ), Quaternion.identity);
+                   // spawn = true;
+                    
+                    // i think this kinda bad code but you know whatevs
+                    // stops trying to spawn when it spawn one
+                    //could make it a while loop yeah
+                    break;
+                }
+            }
+            
+            
+            
+            //GameObject newPillar = Instantiate(obstaclePrefab[0], new Vector3(transform.position.x, groundHeight,transform.position.z ), Quaternion.identity);
+            
+            
             
             yield return new WaitForSeconds(delay);
         } 
     }
 
-    private void Spawn()
-    {
-        
-    }
+  
     
     
     // i think this shoudl return to delay it makes more sense but it is a bit reduncant?
