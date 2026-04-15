@@ -47,14 +47,26 @@ public class PlayerControler : MonoBehaviour
         ani.SetBool("isFlapping", false);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("collide: " + collision.gameObject.name);
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            SetIdle();
+        }
+        
+    }
+    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("collside!");
+        Debug.Log("collide: " + collision.gameObject.name);
         if (collision.gameObject.CompareTag("Score"))
         {
             Debug.Log("Score!!");
             score.AddScore();
             sound.ScoringPLay();
-        }
+        } 
+        
     }
 }
