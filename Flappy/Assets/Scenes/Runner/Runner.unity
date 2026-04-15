@@ -3471,7 +3471,7 @@ MonoBehaviour:
   maxDelay: 10
   baseDelay: 5.16
   interval: 0.3
-  groundHeight: -2.5
+  groundHeight: -2
   delay: 3.5
 --- !u!1 &1658931004
 GameObject:
