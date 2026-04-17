@@ -34,17 +34,20 @@ public class PlayerControler : MonoBehaviour
     //callbackcontext is whatever controllers is
     public void Jump(InputAction.CallbackContext context)
     {
-        //Debug.Log("Jump!");
+        
+        Debug.Log("Jump!");
         rb.linearVelocity = Vector2.up * force;
         
 
         ani.SetBool("isFlapping", true);
-        sound.WingPLay();
+        ani.Play("Vampire Jump Up");
+        //sound.WingPLay();
         
     }
     public void SetIdle()
     {
         ani.SetBool("isFlapping", false);
+        ani.Play("Vampire Idle");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
