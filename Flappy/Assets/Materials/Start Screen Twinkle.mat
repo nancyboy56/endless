@@ -44,11 +44,11 @@ Material:
     m_Floats:
     - _Angle: 2.3
     - _Density: 100
-    - _Mask: 0.84
+    - _Mask: 0.75
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Sin_Range: 0.5
-    - _Speed: -0.02
+    - _Speed: -0.05
     m_Colors:
     - _Color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
