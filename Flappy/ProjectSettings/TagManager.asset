@@ -52,6 +52,9 @@ TagManager:
   - name: Background
     uniqueID: 2709958109
     locked: 0
+  - name: Stars
+    uniqueID: 184295729
+    locked: 0
   - name: Middleground
     uniqueID: 255886699
     locked: 0
