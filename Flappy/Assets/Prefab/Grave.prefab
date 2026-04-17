@@ -50,6 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovePillar
   speed: 2
   despawnX: -11
+  respawn: 0
+  reswpawnX: 0
 --- !u!212 &2979323504837091951
 SpriteRenderer:
   serializedVersion: 2
@@ -95,8 +97,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 255886699
-  m_SortingLayer: 2
+  m_SortingLayerID: -1582334135
+  m_SortingLayer: 7
   m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 89dcdc508073240229e4b10757a76cb2, type: 3}
@@ -123,6 +125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovePillar
   speed: 2
   despawnX: -11
+  respawn: 0
+  reswpawnX: 0
 --- !u!61 &425427060868064392
 BoxCollider2D:
   m_ObjectHideFlags: 0
