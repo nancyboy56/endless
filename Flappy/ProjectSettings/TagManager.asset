@@ -46,6 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Night Sky
+    uniqueID: 1818133115
+    locked: 0
   - name: Background
     uniqueID: 2709958109
     locked: 0
