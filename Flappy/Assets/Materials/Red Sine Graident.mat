@@ -39,7 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _End: 0
-    - _Intensity: 0.05
+    - _Intensity: 0.075
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Range: 0.3

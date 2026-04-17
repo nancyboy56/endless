@@ -55,8 +55,17 @@ TagManager:
   - name: Stars
     uniqueID: 184295729
     locked: 0
-  - name: Middleground
-    uniqueID: 255886699
+  - name: Horizon
+    uniqueID: 2022466047
+    locked: 0
+  - name: Mountains
+    uniqueID: 453518539
+    locked: 0
+  - name: Hills
+    uniqueID: 996017327
+    locked: 0
+  - name: Grass
+    uniqueID: 2712633161
     locked: 0
   - name: Player
     uniqueID: 2825402303
