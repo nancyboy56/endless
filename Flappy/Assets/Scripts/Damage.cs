@@ -22,17 +22,15 @@ public class Damage : MonoBehaviour
 
     [SerializeField] private Healthbar hbDisplay;
     
+    [SerializeField] private SoundManager soundManager;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         UpdateHealthDisplay();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -54,6 +52,7 @@ public class Damage : MonoBehaviour
                 // easy way so the collisions dont get messed up
                 // or should i just delete the collider
                 Destroy(collision.gameObject);
+                soundManager.DamagePLay();
                 
                 //updates hearts through here but runs its own script
                hbDisplay.UpdateHealth (health.GetHealth(), health.GetMaxHealth());
@@ -70,6 +69,7 @@ public class Damage : MonoBehaviour
         {
             Debug.Log("helaed");
             health.Heal(1);
+            soundManager.HealPLay();
             hbDisplay.UpdateHealth (health.GetHealth(), health.GetMaxHealth());
         }
     }
