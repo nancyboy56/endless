@@ -3,26 +3,26 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
 
-    [SerializeField] private AudioSource wings, scoring;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    } 
+    [SerializeField] private AudioSource[] audios;
+ 
 
     public void WingPLay()
     {
-        wings.Play();
+        audios[0].Play();
     }
     
     public void ScoringPLay()
     {
-        scoring.Play();
+        audios[1].Play();
+    }
+    
+    public void HealPLay()
+    {
+        audios[2].Play();
+    }
+    
+    public void DamagePLay()
+    {
+        audios[3].Play();
     }
 }
