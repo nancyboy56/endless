@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Start Red Sine
+  m_Name: End Screen red
   m_Shader: {fileID: -6465566751694194690, guid: 29a6d2468441f4dfba7bf65762e6663e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
