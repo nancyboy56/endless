@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2410671940745902572, guid: 79869fcc5a1204142b9b292a7cd15a24, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b061857d42527c4b872efad1e7aa45f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1473,8 +1473,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Owls: thom_cookes\nAmibent: PatrickLieberkind\nDamage: thefsoundman\nHeal:
-    Kodack\nScore: bradwesson\nJump: LloydEvans09\nGame Over: Mountain_Man \n\nFrom
-    freesounds under creative commons\n"
+    Kodack\nScore: bradwesson\nJump: LloydEvans09 \n\nFrom freesounds under creative
+    commons\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3de752d70d3e3124dbe1d9853de4804a, type: 2}
   m_sharedMaterial: {fileID: -1173762064170823593, guid: 3de752d70d3e3124dbe1d9853de4804a, type: 2}
