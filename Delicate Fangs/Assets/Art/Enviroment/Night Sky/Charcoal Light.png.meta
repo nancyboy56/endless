@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: fb9841ba903414eb59cb3b34bb39ab37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4856937426886379822
+    second: Charcoal Light_0
+  - first:
+      213: 54900696621268552
+    second: Charcoal Light_1
+  - first:
+      213: 7636996827097153397
+    second: Charcoal Light_2
+  - first:
+      213: 5226617878408307077
+    second: Charcoal Light_3
+  - first:
+      213: 4706630224549212835
+    second: Charcoal Light_4
+  - first:
+      213: -2049638738937048342
+    second: Charcoal Light_5
+  - first:
+      213: 7324978818411462228
+    second: Charcoal Light_6
+  - first:
+      213: 5505844335917874061
+    second: Charcoal Light_7
+  - first:
+      213: -3739169198133764863
+    second: Charcoal Light_8
+  - first:
+      213: -4932288324179979444
+    second: Charcoal Light_9
+  - first:
+      213: -7448352503959200232
+    second: Charcoal Light_10
+  - first:
+      213: 8779677486540684736
+    second: Charcoal Light_11
+  - first:
+      213: -8474721821687132908
+    second: Charcoal Light_12
+  - first:
+      213: 7380890217051607164
+    second: Charcoal Light_13
+  - first:
+      213: 580268142066554896
+    second: Charcoal Light_14
+  - first:
+      213: 3834598352808126385
+    second: Charcoal Light_15
+  - first:
+      213: 2009877596679236002
+    second: Charcoal Light_16
+  - first:
+      213: -7504267443062606556
+    second: Charcoal Light_17
+  - first:
+      213: -8902246662007453557
+    second: Charcoal Light_18
+  - first:
+      213: 5183435525811348957
+    second: Charcoal Light_19
+  - first:
+      213: 8599046836709868763
+    second: Charcoal Light_20
+  - first:
+      213: 7964674899052533632
+    second: Charcoal Light_21
+  - first:
+      213: -3373623045996042070
+    second: Charcoal Light_22
+  - first:
+      213: -6189543136137323237
+    second: Charcoal Light_23
+  - first:
+      213: 2494078036062456932
+    second: Charcoal Light_24
+  - first:
+      213: 8887534847302986009
+    second: Charcoal Light_25
+  - first:
+      213: 962627207693556366
+    second: Charcoal Light_26
+  - first:
+      213: -3288106849996454378
+    second: Charcoal Light_27
+  - first:
+      213: -1707273339704165517
+    second: Charcoal Light_28
+  - first:
+      213: -8138255717402094098
+    second: Charcoal Light_29
+  - first:
+      213: 7207507325735035829
+    second: Charcoal Light_30
+  - first:
+      213: 4831048265391796368
+    second: Charcoal Light_31
+  - first:
+      213: 17365100683783389
+    second: Charcoal Light_32
+  - first:
+      213: -7067796974214971777
+    second: Charcoal Light_33
+  - first:
+      213: 5249930805150132648
+    second: Charcoal Light_34
+  - first:
+      213: 8743128695295964014
+    second: Charcoal Light_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Charcoal Light_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2803
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29ccd94bde476340800000000000000
+      internalID: 4856937426886379822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_1
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 174
+        width: 457
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e380884eb03c000800000000000000
+      internalID: 54900696621268552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_2
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 791
+        width: 201
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f39e5d6201cf960800000000000000
+      internalID: 7636996827097153397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_3
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 709
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581ab33c44da88840800000000000000
+      internalID: 5226617878408307077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_4
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 756
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a27f5f904f415140800000000000000
+      internalID: 4706630224549212835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_5
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 700
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae217c72d683e83e0800000000000000
+      internalID: -2049638738937048342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_6
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 691
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45efcaa0d6d87a560800000000000000
+      internalID: 7324978818411462228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_7
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 592
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b3bf69040b86c40800000000000000
+      internalID: 5505844335917874061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 504
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d972edc6dcb1cc0800000000000000
+      internalID: -3739169198133764863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_9
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 383
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43127bc6edfc8bb0800000000000000
+      internalID: -4932288324179979444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_10
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 471
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ede975cd222a890800000000000000
+      internalID: -7448352503959200232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_11
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 403
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd70c3482ea7d970800000000000000
+      internalID: 8779677486540684736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_12
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 253
+        width: 104
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d4618776db36a80800000000000000
+      internalID: -8474721821687132908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_13
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 354
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c705489fb803e6660800000000000000
+      internalID: 7380890217051607164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_14
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 107
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0185a520dc68d0800800000000000000
+      internalID: 580268142066554896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_15
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 118
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b72d63a2ea373530800000000000000
+      internalID: 3834598352808126385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_16
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 0
+        width: 201
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9e410860584eb10800000000000000
+      internalID: 2009877596679236002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_17
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 104
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42579b4158c7bd790800000000000000
+      internalID: -7504267443062606556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_18
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 106
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b888328b3ddd47480800000000000000
+      internalID: -8902246662007453557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_19
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 96
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd52020d5234fe740800000000000000
+      internalID: 5183435525811348957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_20
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 0
+        width: 165
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4c90dc983f55770800000000000000
+      internalID: 8599046836709868763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_21
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 82
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0871f7d3f95388e60800000000000000
+      internalID: 7964674899052533632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_22
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 64
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8a551c6bb7e21d0800000000000000
+      internalID: -3373623045996042070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_23
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 95
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dd390bf435a1aa0800000000000000
+      internalID: -6189543136137323237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 69
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c4b9572cebc9220800000000000000
+      internalID: 2494078036062456932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_25
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 50
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919666efaddd65b70800000000000000
+      internalID: 8887534847302986009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_26
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 23
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a53bd5850fb5d00800000000000000
+      internalID: 962627207693556366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_27
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 41
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616ce66bd3c4e52d0800000000000000
+      internalID: -3288106849996454378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_28
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 35
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b307c61fb8e48e0800000000000000
+      internalID: -1707273339704165517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_29
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5d4f81b8b1f0f80800000000000000
+      internalID: -8138255717402094098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_30
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 32
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3667ac9b5360460800000000000000
+      internalID: 7207507325735035829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_31
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090f1772dc45b0340800000000000000
+      internalID: 4831048265391796368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_32
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 19
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddceeb19771bd3000800000000000000
+      internalID: 17365100683783389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_33
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 0
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ef55749142aed90800000000000000
+      internalID: -7067796974214971777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_34
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9aa5080408bd840800000000000000
+      internalID: 5249930805150132648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charcoal Light_35
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63f3aca935d55970800000000000000
+      internalID: 8743128695295964014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Charcoal Light_0: 4856937426886379822
+      Charcoal Light_1: 54900696621268552
+      Charcoal Light_10: -7448352503959200232
+      Charcoal Light_11: 8779677486540684736
+      Charcoal Light_12: -8474721821687132908
+      Charcoal Light_13: 7380890217051607164
+      Charcoal Light_14: 580268142066554896
+      Charcoal Light_15: 3834598352808126385
+      Charcoal Light_16: 2009877596679236002
+      Charcoal Light_17: -7504267443062606556
+      Charcoal Light_18: -8902246662007453557
+      Charcoal Light_19: 5183435525811348957
+      Charcoal Light_2: 7636996827097153397
+      Charcoal Light_20: 8599046836709868763
+      Charcoal Light_21: 7964674899052533632
+      Charcoal Light_22: -3373623045996042070
+      Charcoal Light_23: -6189543136137323237
+      Charcoal Light_24: 2494078036062456932
+      Charcoal Light_25: 8887534847302986009
+      Charcoal Light_26: 962627207693556366
+      Charcoal Light_27: -3288106849996454378
+      Charcoal Light_28: -1707273339704165517
+      Charcoal Light_29: -8138255717402094098
+      Charcoal Light_3: 5226617878408307077
+      Charcoal Light_30: 7207507325735035829
+      Charcoal Light_31: 4831048265391796368
+      Charcoal Light_32: 17365100683783389
+      Charcoal Light_33: -7067796974214971777
+      Charcoal Light_34: 5249930805150132648
+      Charcoal Light_35: 8743128695295964014
+      Charcoal Light_4: 4706630224549212835
+      Charcoal Light_5: -2049638738937048342
+      Charcoal Light_6: 7324978818411462228
+      Charcoal Light_7: 5505844335917874061
+      Charcoal Light_8: -3739169198133764863
+      Charcoal Light_9: -4932288324179979444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
