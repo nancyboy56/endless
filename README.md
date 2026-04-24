@@ -6,3 +6,5 @@ An endless runner about a ampire who is trying to make their way back to their c
 Started as a flappy bird reskin for Game Development class in the Diploma of Animation in 2026
 
 Link to itch page: https://snakedriver.itch.io/delicate-fangs
+
+![A vampire with red hair and a black dress running in a field with a gravestone in the shape of a cross approaching them](</Art/runner 1.png>) 
